@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4b0615">
+  <title>Jiya & Suryansh — Four Years ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topline"><span>JIYA & SURYANSH · JUST YOU & ME</span><span id="chapterLabel">A LITTLE SOMETHING FOR YOU</span></header>
+
+  <main>
+    <section class="chapter intro active" id="intro" aria-label="Open your letter">
+      <div class="tiny-flower flower-a">✿</div><div class="tiny-flower flower-b">❀</div>
+      <p class="eyebrow">9 NOVEMBER 2022 — 9 NOVEMBER 2026</p>
+      <h1>Four years of<br><em>you & me.</em></h1>
+      <p class="intro-copy">A little website made by Jiya,<br>for Suryansh. Four years of memories.</p>
+      <button class="envelope-button" id="openLetter" aria-label="Open the letter">
+        <span class="envelope">
+          <span class="envelope-back"></span><span class="letter-peek">A letter, just for you</span>
+          <span class="envelope-front"></span><span class="envelope-flap"></span>
+          <span class="wax-seal">♡</span>
+        </span>
+        <span class="button-caption">TAP TO OPEN</span>
+      </button>
+      <p class="scroll-hint">made by me, with a suspicious amount of tabs open ↓</p>
+    </section>
+
+    <section class="chapter letter-chapter" id="letter">
+      <p class="eyebrow">CHAPTER ONE · A NOTE FROM ME</p>
+      <div class="letter-edit-controls"><button type="button" class="secondary" id="editLetter">Edit this letter</button><button type="button" class="secondary" id="saveLetter" hidden>Finish editing</button><button type="button" class="secondary" id="resetLetter" hidden>Reset text</button></div>
+      <p class="edit-hint" id="editHint" hidden>Tap any part of the letter to change it. Your edits are saved in this browser only.</p>
+      <article class="paper">
+        <div class="paper-flower">✿</div>
+        <p class="script">To Suryansh,</p>
+        <div class="letter-copy" id="letterCopy">
+          <p>Happy anniversary, Suryansh. Four years. 1,461 days since 9 November 2022 — and not a single second has gone by without me thinking about you at least once. Honestly, that's a lot of time to have someone on your mind.</p>
+          <p>I know we're in a different phase of life right now. We have studies to focus on, careers to build, and a lot of things we want to achieve for ourselves. There will be plenty to figure out, and I know we both have to work hard to get where we want to be.</p>
+          <p>But none of that changes how much I love you. If anything, I hope we get to watch each other grow, make it into the lives we've imagined for ourselves, and celebrate all the things we've worked for.</p>
+          <p>And I really do believe we'll do all of that — and stay together through it, too. So here's to four years, to everything we've already shared, and to all the things still waiting for us.</p>
+          <p>I love you very much. Happy anniversary. ♡</p>
+          <p class="signoff">Jiya<br><span>♡</span></p>
+        </div>
+      </article>
+      <button class="primary next" data-next="memories">Come see our memories <span>→</span></button>
+    </section>
+
+    <section class="chapter" id="memories">
+      <p class="eyebrow">CHAPTER TWO · LITTLE MOMENTS, OUR KIND OF CHAOS</p>
+      <h2>Our favourite <em>little things.</em></h2>
+      <p class="section-subtitle">A few moments from the last four years.</p>
+      <div class="flipbook-wrap">
+        <div class="flipbook" id="memoryFlipbook" aria-label="Our photo memory book">
+          <div class="book-spine"></div>
+          <div class="book-page left-page" id="leftBookPage">
+            <div class="page-decoration">♡</div>
+            <p class="page-kicker">OUR LITTLE BOOK</p>
+            <h3>Jiya <span>&</span><br>Suryansh</h3>
+            <p class="page-note">four years of little moments, big laughs, and us.</p>
+            <span class="page-number" id="leftPageNumber">Cover</span>
+          </div>
+          <div class="book-page right-page" id="rightBookPage">
+            <div class="book-photo-frame"><img id="flipbookPhoto" src="assets/photos/memory-1.jpg" alt="A memory of Jiya and Suryansh"></div>
+            <p class="book-caption" id="flipbookCaption">a little moment, kept forever ♡</p>
+            <span class="page-number" id="rightPageNumber">1 / 8</span>
+          </div>
+        </div>
+        <div class="flipbook-controls">
+          <button class="secondary" id="flipPrev" type="button" disabled>← Previous</button>
+          <span id="flipStatus">Open our little book</span>
+          <button class="primary" id="flipNext" type="button">Open book →</button>
+        </div>
+        <p class="flipbook-hint">Tip: click a photograph to see it bigger.</p>
+      </div>
+      <div class="photo-lightbox" id="photoLightbox" aria-hidden="true">
+        <button class="lightbox-close" id="closeLightbox" aria-label="Close photo">×</button>
+        <button class="lightbox-arrow lightbox-prev" id="lightboxPrev" aria-label="Previous photo">‹</button>
+        <img id="lightboxImage" src="" alt="Enlarged memory">
+        <button class="lightbox-arrow lightbox-next" id="lightboxNext" aria-label="Next photo">›</button>
+        <p id="lightboxCount"></p>
+      </div>
+      <button class="primary next" data-next="bouquet">Make us a bouquet <span>→</span></button>
+    </section>
+
+    <section class="chapter bouquet-chapter" id="bouquet">
+      <p class="eyebrow">A LITTLE DETOUR · JUST BECAUSE</p>
+      <h2>A bouquet, <em>for you.</em></h2>
+      <p class="section-subtitle">Pick the flowers you'd give me — or make one for yourself. There are no wrong combinations. ♡</p>
+      <div class="bouquet-builder">
+        <div class="bouquet-preview-wrap">
+          <div class="bouquet-preview" id="bouquetPreview" aria-label="Your custom flower bouquet">
+            <div class="bouquet-bow">♡</div>
+            <div class="bouquet-flowers" id="bouquetFlowers">
+              <span class="bouquet-flower sample-flower">🌹</span>
+              <span class="bouquet-flower sample-flower">🌷</span>
+              <span class="bouquet-flower sample-flower">🌼</span>
+            </div>
+            <div class="bouquet-stems">╲│╱╲│╱</div>
+            <div class="bouquet-wrap" id="bouquetWrap"></div>
+          </div>
+          <p class="bouquet-caption">your little bunch of happiness ♡</p>
+        </div>
+        <div class="bouquet-options">
+          <h3>Choose your flowers</h3>
+          <p>Tap a flower to add it. Add up to 12.</p>
+          <div class="flower-picker">
+            <button type="button" class="flower-option" data-flower="🌹" data-name="Rose"><span>🌹</span><small>Rose</small></button>
+            <button type="button" class="flower-option" data-flower="🌷" data-name="Tulip"><span>🌷</span><small>Tulip</small></button>
+            <button type="button" class="flower-option" data-flower="🌻" data-name="Sunflower"><span>🌻</span><small>Sunflower</small></button>
+            <button type="button" class="flower-option" data-flower="🌼" data-name="Daisy"><span>🌼</span><small>Daisy</small></button>
+            <button type="button" class="flower-option" data-flower="🌸" data-name="Cherry blossom"><span>🌸</span><small>Blossom</small></button>
+            <button type="button" class="flower-option" data-flower="🪻" data-name="Lavender"><span>🪻</span><small>Lavender</small></button>
+            <button type="button" class="flower-option" data-flower="💐" data-name="Mixed flowers"><span>💐</span><small>Mixed</small></button>
+            <button type="button" class="flower-option" data-flower="🤍" data-name="White flower"><span>🤍</span><small>White</small></button>
+          </div>
+          <label class="wrap-label" for="wrapChoice">Choose the wrapping</label>
+          <select id="wrapChoice">
+            <option value="blush">Blush pink</option>
+            <option value="cream">Cream paper</option>
+            <option value="wine">Burgundy</option>
+            <option value="sage">Sage green</option>
+          </select>
+          <label class="wrap-label" for="bouquetMessage">Add a little note</label>
+          <textarea id="bouquetMessage" rows="2" maxlength="100" placeholder="For you, because you make life bloom..."></textarea>
+          <div class="bouquet-actions">
+            <button type="button" class="secondary" id="undoFlower">Remove one</button>
+            <button type="button" class="secondary" id="clearBouquet">Start over</button>
+          </div>
+          <p class="bouquet-count" id="bouquetCount">3 flowers in your bouquet</p>
+          <button type="button" class="primary" id="saveBouquet">Save my bouquet ♡</button>
+          <div class="bouquet-card" id="bouquetCard" hidden>
+            <p class="script">A little something for you</p>
+            <div id="savedFlowers"></div>
+            <p id="savedMessage"></p>
+            <button type="button" class="secondary" id="downloadBouquet">Download bouquet card</button>
+          </div>
+        </div>
+      </div>
+      <button class="primary next" data-next="song">Now, our song <span>→</span></button>
+    </section>
+
+    <section class="chapter music-chapter" id="song">
+      <p class="eyebrow">CHAPTER THREE · OUR SONG</p>
+      <h2>Our song.</h2>
+      <p class="section-subtitle">Some songs sound a little like home.</p>
+      <div class="record-player">
+        <div class="record" id="record"><div class="record-label"><span>♡</span><small>YOU + ME</small></div></div>
+        <div class="track-title" id="trackTitle">I Wanna Be Yours</div>
+        <div class="track-artist" id="trackArtist">Arctic Monkeys · AM</div>
+        <div class="youtube-player">
+          <iframe
+            id="youtubeSong"
+            src="https://www.youtube.com/embed/nyuo9-OjNNg"
+            title="I Wanna Be Yours by Arctic Monkeys — official audio"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+        </div>
+        <p class="helper">Press play on the official YouTube audio above. The song is streamed from YouTube, so you don't need to upload an MP3.</p>
+      </div>
+      <button class="primary next" data-next="story">A little more us <span>→</span></button>
+    </section>
+
+    <section class="chapter" id="story">
+      <p class="eyebrow">CHAPTER FOUR · FOUR YEARS OF US</p>
+      <h2>Look at us, <em>still choosing us.</em></h2>
+      <p class="section-subtitle">A few things I hope you never forget.</p>
+      <div class="story-layout">
+        <div class="story-photo"><img src="assets/photos/memory-2.jpg" alt="Jiya and Suryansh laughing together"><small>one of my favourite versions of us ♡</small></div>
+        <div class="story-text">
+          <h3>My favourite plot twist was you.</h3>
+          <p>Four years ago, we had no idea how many memories, jokes, conversations, and tiny traditions would become part of our world. Look at us now.</p>
+          <p>I love the big moments, but I think I love the small ones just as much: the random conversations, the silly things, the comfort of being ourselves, and having someone who makes even the most normal day feel like ours.</p>
+          <p class="script">My favourite thing about us is that we're still becoming us. ♡</p>
+        </div>
+      </div>
+      <button class="primary next" data-next="booth">Let's make one right now <span>→</span></button>
+    </section>
+
+    <section class="chapter booth-chapter" id="booth">
+      <p class="eyebrow">THE LAST CHAPTER · A NEW MEMORY</p>
+      <h2>Say cheese, <em>love.</em></h2>
+      <p class="section-subtitle">A tiny photobooth for this very moment.</p>
+      <div class="booth">
+        <div class="camera-frame">
+          <video id="camera" autoplay playsinline muted hidden></video>
+          <canvas id="snapshot" hidden></canvas>
+          <div class="camera-placeholder" id="cameraPlaceholder"><span>♡</span><p>Your next favourite photo<br>could be right here.</p></div>
+          <div class="countdown" id="countdown"></div>
+        </div>
+        <div class="booth-controls">
+          <button class="secondary" id="startCamera">Turn on camera</button>
+          <button class="primary" id="takePhoto" disabled>Take a photo</button>
+        </div>
+        <div class="booth-result" id="boothResult" hidden>
+          <div class="result-polaroid"><img id="capturedImage" alt="Your captured photobooth photo"><p>one for the memory box ♡</p></div>
+          <div class="booth-controls"><button class="secondary" id="retake">Try again</button><a class="primary download" id="downloadPhoto" download="our-memory.png">Save photo ↓</a></div>
+        </div>
+        <p class="helper">Camera access works on the published HTTPS site. You must allow access in your browser.</p>
+      </div>
+      <p class="final-note script">Four years down. More memories to come. — Jiya ♡</p>
+      <button class="text-button" id="backToStart">Read it all again ↺</button>
+    </section>
+  </main>
+  <footer>MADE BY JIYA, WITH QUESTIONABLE AMOUNTS OF PATIENCE <span>♡</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
